@@ -1,7 +1,7 @@
 {
     "name": "sugly-lang",
     "displayName": "sugly-lang",
-    "description": "the grammer support of sugly language.",
+    "description": "The VS Code extension to support Sugly language.",
     "version": "0.10.1",
     "publisher": "NirlStudio",
     "engines": {
