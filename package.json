@@ -1,0 +1,26 @@
+{
+    "name": "sugly-lang",
+    "displayName": "sugly-lang",
+    "description": "the grammer support of sugly language.",
+    "version": "0.10.1",
+    "publisher": "NirlStudio",
+    "engines": {
+        "vscode": "^1.28.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "sugly",
+            "aliases": ["Sugly", "sugly", "sugly-lang"],
+            "extensions": [".s"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "sugly",
+            "scopeName": "source.sugly",
+            "path": "./syntaxes/sugly.tmLanguage.json"
+        }]
+    }
+}
