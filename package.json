@@ -1,9 +1,14 @@
 {
-    "name": "sugly-lang",
-    "displayName": "sugly-lang",
-    "description": "The VS Code extension to support Sugly language.",
+    "name": "sugly",
     "version": "0.10.1",
+    "displayName": "Sugly",
+    "description": "The VS Code extension to support Sugly language.",
+    "author": {
+      "email": "leevi@nirlstudio.com",
+      "name": "Leevi Li"
+    },
     "publisher": "NirlStudio",
+    "repository": "NirlStudio/vscode-sugly",
     "engines": {
         "vscode": "^1.28.0"
     },
