@@ -1,6 +1,6 @@
 {
     "name": "sugly",
-    "version": "0.10.2",
+    "version": "0.10.3",
     "displayName": "Sugly",
     "description": "The VS Code extension to support Sugly language.",
     "author": {
