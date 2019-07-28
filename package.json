@@ -1,14 +1,14 @@
 {
-    "name": "sugly",
-    "version": "0.10.5",
-    "displayName": "Sugly",
-    "description": "The VS Code extension to support Sugly language.",
+    "name": "vscode-espresso",
+    "version": "0.10.6",
+    "displayName": "Espresso Language (eslang)",
+    "description": "The VS Code extension to support Espresso language.",
     "author": {
       "email": "leevi@nirlstudio.com",
       "name": "Leevi Li"
     },
     "publisher": "NirlStudio",
-    "repository": "NirlStudio/vscode-sugly",
+    "repository": "NirlStudio/vscode-espresso",
     "engines": {
         "vscode": "^1.28.0"
     },
@@ -17,15 +17,15 @@
     ],
     "contributes": {
         "languages": [{
-            "id": "sugly",
-            "aliases": ["Sugly", "sugly", "sugly-lang"],
-            "extensions": [".s"],
+            "id": "espresso",
+            "aliases": ["Espresso", "espresso", "espresso-lang", "eslang"],
+            "extensions": [".es"],
             "configuration": "./language-configuration.json"
         }],
         "grammars": [{
-            "language": "sugly",
-            "scopeName": "source.sugly",
-            "path": "./syntaxes/sugly.tmLanguage.json"
+            "language": "espresso",
+            "scopeName": "source.espresso",
+            "path": "./syntaxes/espresso.tmLanguage.json"
         }]
     }
 }
