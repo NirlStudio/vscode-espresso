@@ -23,7 +23,7 @@
             "configuration": "./language-configuration.json"
         }],
         "grammars": [{
-            "language": "espresso",
+            "language": "Espresso",
             "scopeName": "source.espresso",
             "path": "./syntaxes/espresso.tmLanguage.json"
         }]

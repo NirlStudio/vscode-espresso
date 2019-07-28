@@ -1,4 +1,4 @@
-# Visual Studio Code Espresso Lang Extension
+# VS Code Espresso Language Extension
 Provide Espresso language (eslang) support for VS Code
 
 ## Install
